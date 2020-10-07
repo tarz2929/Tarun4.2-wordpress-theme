@@ -28,5 +28,12 @@ add_action( 'wp_enqueue_scripts', function ()
     // Should we output this script in the wp_footer()?
     FALSE
   );
-
+  // Enqueue our stylesheet!
+  wp_enqueue_style(
+    'techcareers-theme-main-styles',
+    get_theme_file_uri( '/assets/css/main.css' ),
+    strftime( get_theme_file_uri( '/assets/css/main.css' ) ),
+    // The type of media we're targeting (media query label.)
+    'all'
+  );
 } );
