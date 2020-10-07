@@ -6,7 +6,7 @@
   <title><?php bloginfo( 'title' ); ?></title>
   <?php
     // This will output any scripts, styles, meta,
-    // and more that our theme / plugin need.    
+    // and more that our theme / plugins need.    
     wp_head();
   ?>
 </head>
