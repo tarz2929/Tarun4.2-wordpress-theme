@@ -9,3 +9,13 @@ register_nav_menus( // We must register nav locations if we want the admin to be
     'footer_menu' => 'Footer Menu',
   )
 );
+
+/**
+ * Enqueue theme stylesheets and scripts.
+ */
+add_action( 'wp_enqueue_scripts', function ()
+{
+
+  
+
+} );
